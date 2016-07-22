@@ -4,13 +4,14 @@
   Email: jindrich.sirucek@gmail.com
 */
 
-
+//pokus
 //--------------------------------------------------------------------------------
 //Libraries included
 #include <ESP8266WiFi.h>
 #include <Tasker.h>
 
 
+#define POKUS true //if true? disable debugging output information
 #define OSTRY_PROVOZ true //if true? disable debugging output information
 #define DISABLE_SOME_MODULES true // disables some modules
 
