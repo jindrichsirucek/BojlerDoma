@@ -1,0 +1,2370 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"de",
+				"define	Deviot Macro define"
+			],
+			[
+				"time",
+				"timeDateStrig"
+			],
+			[
+				"tim",
+				"timeDateStrig"
+			],
+			[
+				"Conn",
+				"connected"
+			],
+			[
+				"Beg",
+				"begining"
+			],
+			[
+				"respons",
+				"responseText"
+			],
+			[
+				"print",
+				"println"
+			],
+			[
+				"mi",
+				"millis	Deviot millis()"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "BojlerDoma.ino",
+			"settings":
+			{
+				"buffer_size": 11979,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "curentMetter.ino",
+			"settings":
+			{
+				"buffer_size": 1391,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "DisplayingData.ino",
+			"settings":
+			{
+				"buffer_size": 6980,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "internet_comunication.ino",
+			"settings":
+			{
+				"buffer_size": 4378,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "OTA.ino",
+			"settings":
+			{
+				"buffer_size": 1744,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "RelayControl.ino",
+			"settings":
+			{
+				"buffer_size": 4005,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "responseProcesing.ino",
+			"settings":
+			{
+				"buffer_size": 4133,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "SPIFFS.ino",
+			"settings":
+			{
+				"buffer_size": 613,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "temperatureModule.ino",
+			"settings":
+			{
+				"buffer_size": 2465,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "WaterFlowMetter.ino",
+			"settings":
+			{
+				"buffer_size": 2665,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jindra/.platformio/lib/DallasTemperature_ID54/examples/oneWireSearch/oneWireSearch.ino",
+		"/Users/jindra/.platformio/lib/DallasTemperature_ID54/examples/Simple/Simple.ino",
+		"/Users/jindra/Documents/Platform.IO Projects/Platform.IO Files/Builds/SimplifiedUARTtoWiFiBridge_V2/platformio.ini",
+		"/Users/jindra/Documents/Platform.IO Projects/Platform.IO Files/Builds/BojlerDoma/platformio.ini",
+		"/Users/jindra/.platformio/lib/pfodESP8266BufferedClient/examples/SimplifiedUARTtoWiFiBridge_V2/SimplifiedUARTtoWiFiBridge_V2.ino",
+		"/Users/jindra/.platformio/lib/OneWire_ID1/examples/DS18x20_Temperature/DS18x20_Temperature.ino",
+		"/Users/jindra/.platformio/lib/DallasTemperature/examples/oneWireSearch/oneWireSearch.ino",
+		"/Users/jindra/Documents/Platform.IO Projects/BojlerDoma/internet_comunication.ino",
+		"/Users/jindra/Library/Application Support/Sublime Text 3/Packages/Deviot/Settings-Default/Default (OSX).sublime-keymap",
+		"/Users/jindra/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/jindra/Documents/Platform.IO Projects/Platform.IO Files/Builds/jsonProcesing/platformio.ini",
+		"/Users/jindra/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/jindra/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/jindra/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/jindra/.platformio/lib/Time_ID44/examples/TimeSerialDateStrings/TimeSerialDateStrings.ino",
+		"/Users/jindra/.platformio/lib/Time_ID44/examples/TimeNTP_ESP8266WiFi/TimeNTP_ESP8266WiFi.ino",
+		"/Users/jindra/.platformio/lib/Json_ID64/examples/JsonParserExample/JsonParserExample.ino",
+		"/Users/jindra/Documents/Platform.IO Projects/BojlerDoma/Bojler_Deviot.sublime-project",
+		"/Users/jindra/.platformio/lib/Json_ID64/examples/JsonHttpClient/JsonHttpClient.ino",
+		"/Users/jindra/Library/Application Support/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/Users/jindra/Documents/Platform.IO Projects/BojlerDoma/HTTPSRedirect.h",
+		"/Users/jindra/Documents/Platform.IO Projects/BojlerDoma/main.cpp",
+		"/Users/jindra/Documents/Platform.IO Projects/Platform.IO Files/Builds/WaterFlowMetter/platformio.ini",
+		"/Users/jindra/Documents/Platform.IO Projects/BojlerDoma/ThermoDin.sublime-project",
+		"/Users/jindra/Documents/Platform.IO Projects/BojlerDoma/ThermoDin.sublime-workspace",
+		"/Users/jindra/Documents/Platform.IO Projects/BojlerDoma/DisplayingData.ino",
+		"/Users/jindra/Documents/Platform.IO Projects/Platform.IO Files/BojlerDoma/platformio.ini",
+		"/Users/jindra/Library/Application Support/Sublime Text 3/Packages/Deviot/Settings-Default/Deviot Preferences.sublime-settings",
+		"/Users/jindra/Documents/Platform.IO Projects/BojlerDoma/BojlerDoma.ino",
+		"/Users/jindra/Documents/Platform.IO Projects/Platform.IO Files/pokus/platformio.ini",
+		"/Users/jindra/Documents/Platform.IO Projects/pokus/pokus.ino",
+		"/Users/jindra/Documents/Platform.IO/pokus/pokus.ino",
+		"/Users/jindra/Documents/Deviot/pokus/pokus.ino",
+		"/Users/jindra/Documents/Arduino/GitHub/Arduino/BasicOTA1.6.9/BasicOTA1.6.9.ino",
+		"/Users/jindra/Documents/pokus/pokus.ino"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/jindra/Documents/Platform.IO Projects/BojlerDoma"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"turnOnBoilerHeating",
+			"-127",
+			"restart",
+			"12",
+			"nowTime_global",
+			"showServiceMessage",
+			"getStringUpTime",
+			"showServiceMessage",
+			"joe black",
+			"objectAskingForResponse_global",
+			"system",
+			"timeDateStrig",
+			"),",
+			"{",
+			"\"F:",
+			"sendHttpsRequestTes",
+			"turnOnBoilerHeating",
+			"\\(.*?\\)",
+			"\\[\".*?\"\\]",
+			"[\".*?\"]",
+			"[\"topHeatingTemp\"]:50,[\"lowDropingTemp\"]:25,[\"boilerElectricity\"]:off,[\"lastTemperature\"]:[],[\"boilerHeating\"]:NoChange,[\"nowDate\"]:10.07[.2016],[\"nowTime\"]:11:50[:22,[\"nodeRestart\"]:false}",
+			"\".*?\"",
+			",",
+			"auto",
+			"check",
+			"version",
+			"objectAskingForResponse_global",
+			"doNecesaryActionsUponResponse",
+			"zpracujOpdpoved",
+			"DATA_SERVER_SCRIPT_URL",
+			"sensorData.php",
+			"doNecesaryActionsUponResponse",
+			"zpracujOpdpoved",
+			"responseText",
+			"zpracujOpdpovedzpracujOpdpoved",
+			"responseText",
+			"WiFiClientSecure",
+			"serial begin",
+			"ISR_flowCount",
+			"getTimeFromLastUpdate",
+			"new vers",
+			"downloa",
+			"updgrad",
+			"update",
+			"super+u",
+			"command+u",
+			"super+u",
+			"build",
+			"}",
+			"\");\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"ERROR_TEMP_VALUE",
+			"timeDateString",
+			"timeDateStrig",
+			"\"  F:"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 9,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "BojlerDoma.ino",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11979,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Deviot/Arduino.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "curentMetter.ino",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1391,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Deviot/Arduino.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "DisplayingData.ino",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6980,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Deviot/Arduino.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "internet_comunication.ino",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4378,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Deviot/Arduino.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "OTA.ino",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1744,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Deviot/Arduino.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "RelayControl.ino",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4005,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Deviot/Arduino.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "responseProcesing.ino",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Deviot/Arduino.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "SPIFFS.ino",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 613,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Deviot/Arduino.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "temperatureModule.ino",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2465,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Deviot/Arduino.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "WaterFlowMetter.ino",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2665,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Deviot/Arduino.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 17.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.Deviot|Build1467836414.641733":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Build1467836465.063132":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Build1467836569.468524":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Build1467836595.613198":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Build1467837221.037764":
+	{
+		"height": 0.0
+	},
+	"output.Deviot|Build1467837247.187606":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Build1467838904.417634":
+	{
+		"height": 320.0
+	},
+	"output.Deviot|Build1467839006.935112":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Build1467839748.135487":
+	{
+		"height": 484.0
+	},
+	"output.Deviot|Build1467840083.146981":
+	{
+		"height": 406.0
+	},
+	"output.Deviot|Build1467842420.551007":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Build1467842731.00641":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Build1467918284.000705":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Build1468170822.431783":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Build1468171001.204817":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Build1468171056.45144":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Build1468171102.58334":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Build1468171117.862361":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Build1468178731.903342":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Build1468178759.886881":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Build1468190902.378062":
+	{
+		"height": 343.0
+	},
+	"output.Deviot|Build1468190968.53397":
+	{
+		"height": 431.0
+	},
+	"output.Deviot|Build1468191671.298917":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Build1468242372.886665":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Build1468242426.074104":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Build1468242786.043159":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Build1468277964.559645":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Build1468278017.539909":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Build1468278038.61988":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Clean1467842739.170509":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Clean1467843289.823908":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Clean1468190964.78341":
+	{
+		"height": 435.0
+	},
+	"output.Deviot|GetBoards1467839622.236174":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Library1467919169.523789":
+	{
+		"height": 0.0
+	},
+	"output.Deviot|Library1467920702.474639":
+	{
+		"height": 0.0
+	},
+	"output.Deviot|Library1467920703.411562":
+	{
+		"height": 0.0
+	},
+	"output.Deviot|Library1468068905.325713":
+	{
+		"height": 0.0
+	},
+	"output.Deviot|Library1468068906.447694":
+	{
+		"height": 0.0
+	},
+	"output.Deviot|Library1468069001.712267":
+	{
+		"height": 0.0
+	},
+	"output.Deviot|Library1468069002.323204":
+	{
+		"height": 0.0
+	},
+	"output.Deviot|Library1468069128.787039":
+	{
+		"height": 0.0
+	},
+	"output.Deviot|Library1468069129.436569":
+	{
+		"height": 0.0
+	},
+	"output.Deviot|Library1468069130.91625":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Library1468163908.902814":
+	{
+		"height": 0.0
+	},
+	"output.Deviot|Library1468163910.307422":
+	{
+		"height": 0.0
+	},
+	"output.Deviot|Library1468163921.194619":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Library1468190091.350084":
+	{
+		"height": 0.0
+	},
+	"output.Deviot|Library1468190092.456556":
+	{
+		"height": 0.0
+	},
+	"output.Deviot|Library1468242411.244862":
+	{
+		"height": 0.0
+	},
+	"output.Deviot|Library1468242412.026169":
+	{
+		"height": 0.0
+	},
+	"output.Deviot|Library1468395531.636477":
+	{
+		"height": 0.0
+	},
+	"output.Deviot|Library1468395532.422923":
+	{
+		"height": 0.0
+	},
+	"output.Deviot|Pio_Install1467835276.069938":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Pio_Install1467836422.817401":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Pio_Install1467839716.418969":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Pio_Install1467919242.598551":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upgrade1467836422.813008":
+	{
+		"height": 0.0
+	},
+	"output.Deviot|Upgrade1467919242.594157":
+	{
+		"height": 0.0
+	},
+	"output.Deviot|Upload1467836634.0616":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467836685.539861":
+	{
+		"height": 197.0
+	},
+	"output.Deviot|Upload1467836888.336428":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467837811.360419":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467840166.012347":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467840198.790732":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467840364.86979":
+	{
+		"height": 479.0
+	},
+	"output.Deviot|Upload1467840383.398704":
+	{
+		"height": 423.0
+	},
+	"output.Deviot|Upload1467840435.989742":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467840452.474644":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467840729.310969":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467840763.964985":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467840803.80807":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467840853.228437":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467840934.022926":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467841004.761187":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467841414.355647":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467841423.738382":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467841423.905962":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467841482.159799":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467841486.726907":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467841932.314077":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467842080.931362":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467842089.381226":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467842365.525006":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467842385.194447":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467842391.19161":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467842400.800157":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467842412.966464":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467842418.086791":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467842423.353498":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467842678.675758":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467842724.41595":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467842727.621583":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467842732.841448":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467842744.17131":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467842761.877709":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467842827.384128":
+	{
+		"height": 222.0
+	},
+	"output.Deviot|Upload1467842895.803765":
+	{
+		"height": 286.0
+	},
+	"output.Deviot|Upload1467843029.415065":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467843044.910833":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467843062.781275":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467843078.756041":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467843094.147698":
+	{
+		"height": 259.0
+	},
+	"output.Deviot|Upload1467843121.01521":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467843156.808438":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467843197.813415":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467843245.775139":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467843292.143368":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467843338.459512":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467843550.143381":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467843643.14967":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467843713.797759":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467843759.723666":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467843800.42008":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467890600.887607":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467890813.807447":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467890909.203446":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467890920.353768":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467890934.112377":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467890953.459659":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467891097.453815":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467891173.563826":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467891204.995384":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467891253.112836":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467891303.496724":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467891356.212435":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467891381.591996":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467891441.977014":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467891504.789905":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467916136.772163":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467916237.853232":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467916290.568784":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467916331.760468":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467916457.952136":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467916817.607232":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467916851.676216":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467916928.748651":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467916939.271972":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467916950.536943":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467916989.436584":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467917017.405292":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467917209.858589":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467917257.771468":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467917292.975477":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467917376.754139":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467917395.801955":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467917418.219632":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467917434.094944":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467917452.829358":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467917558.017093":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467917578.063968":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467917587.569942":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467917615.897891":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467917651.391803":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467917679.972825":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467917715.935653":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467917772.44998":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467917784.463067":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467917799.32202":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467917817.907176":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467917855.074982":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467917986.442082":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467918001.408312":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467918023.178718":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467918040.95781":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467918063.131721":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467918100.32322":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467918214.102287":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467918305.261164":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467918312.622526":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467918386.947785":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467918456.238312":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467918489.142969":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467918516.955418":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467918532.834373":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467918568.38801":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467918612.274491":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467918653.368999":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467919132.790032":
+	{
+		"height": 240.0
+	},
+	"output.Deviot|Upload1467920347.940839":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467920548.902765":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467920564.958735":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467920579.238794":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467920603.273157":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467920640.733157":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467920659.137368":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467920672.361709":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467920686.047281":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467920735.991341":
+	{
+		"height": 191.0
+	},
+	"output.Deviot|Upload1467920911.448143":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467920970.079808":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467921065.996479":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467921089.691335":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467921108.047251":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467921129.19918":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467921147.257381":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467921179.755689":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467921204.841442":
+	{
+		"height": 514.0
+	},
+	"output.Deviot|Upload1467921276.545417":
+	{
+		"height": 192.0
+	},
+	"output.Deviot|Upload1467921318.361162":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467921463.911758":
+	{
+		"height": 240.0
+	},
+	"output.Deviot|Upload1467921606.215536":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467921611.484519":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467921636.426131":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467921787.342176":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467921811.232629":
+	{
+		"height": 208.0
+	},
+	"output.Deviot|Upload1467921999.3509":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467922050.083316":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467922120.571436":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467922222.5251":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467922280.739814":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467922397.891931":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467922579.865452":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467922643.245441":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467922672.657128":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467923087.477746":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467923208.429546":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467923350.901629":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467923372.676728":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467923395.750254":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467923495.502087":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467923507.378933":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467923528.97213":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467923549.906906":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467923585.428406":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467923615.262908":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467925026.877394":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467925055.410899":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467925095.067618":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467925136.435723":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467925183.954933":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467925749.981662":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467925808.378969":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467925950.239403":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467926051.756683":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467926081.507983":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467927325.412352":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467927363.524905":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467927702.687357":
+	{
+		"height": 211.0
+	},
+	"output.Deviot|Upload1467927729.14383":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467927774.944906":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467927909.664424":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467927936.007856":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1467927955.193969":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468004539.234582":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468005023.952082":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468006778.60212":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468006818.487708":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468006859.206652":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468006917.958593":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468007223.545925":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468007244.71265":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468007285.969849":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468007663.287935":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468007769.557552":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468007903.010713":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468008127.880946":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468008360.332336":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468008751.677405":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468009003.864662":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468009184.481562":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468009312.621721":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468009657.739331":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468009689.421892":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468009846.556655":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468009918.635624":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468010155.125529":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468082363.32136":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468088841.00751":
+	{
+		"height": 0.0
+	},
+	"output.Deviot|Upload1468143459.222359":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468143481.301609":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468143505.904209":
+	{
+		"height": 204.0
+	},
+	"output.Deviot|Upload1468143525.711108":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468146121.928629":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468146155.51826":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468146284.932123":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468146316.638403":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468146383.490534":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468146428.758766":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468146588.792285":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468146607.785196":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468146640.682262":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468146857.590602":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468146909.383752":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468146932.641947":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468147360.227669":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468147397.841179":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468153277.818226":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468153588.627183":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468153640.047191":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468153683.305868":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468153809.572986":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468153925.254976":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468154024.609203":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468154200.795901":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468154750.652135":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468154832.122167":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468155025.465416":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468161769.515896":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468162241.047103":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468167411.754766":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468167622.881121":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468167680.598838":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468167722.132024":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468168114.080832":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468168248.101508":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468168333.686646":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468168869.596142":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468168909.618548":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468168935.104378":
+	{
+		"height": 103.0
+	},
+	"output.Deviot|Upload1468169070.775476":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468169100.691663":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468169129.701798":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468169230.56888":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468169265.629885":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468169543.130234":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468169565.385126":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468169736.007601":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468169796.314985":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468169858.092537":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468169908.091141":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468170110.759824":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468170278.651586":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468170298.093677":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468170430.188502":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468170469.678916":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468170489.593905":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468170564.199463":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468170608.723425":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468171157.213086":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468171361.263454":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468172214.489777":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468174095.207":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468174765.396842":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468174779.051799":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468174881.666858":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468175279.501898":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468175828.387754":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468175828.653421":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468176545.229807":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468176708.331113":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468176987.100965":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468178493.206075":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468178512.569814":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468178538.170655":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468178772.189268":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468178840.384776":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468178840.545279":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468178842.605241":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468178843.966537":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468178860.173458":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468178869.836537":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468179630.118154":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468179647.209353":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468179660.790505":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468179678.397598":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468179711.011155":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468179729.910964":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468180580.941083":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468180605.332697":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468180623.197165":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468180637.235172":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468180770.301511":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468180779.765149":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468180785.521251":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468180866.920483":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468180879.896961":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468180898.755287":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468180919.328318":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468180933.662837":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468180956.609315":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468181208.70815":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468181898.498136":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468183935.291851":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468188164.120374":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468188667.171897":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468188694.221884":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468188810.71033":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468188949.691757":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468190177.495268":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468190220.675549":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468190433.433844":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468190473.157914":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468190496.243436":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468190537.140978":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468190822.808246":
+	{
+		"height": 354.0
+	},
+	"output.Deviot|Upload1468190942.186027":
+	{
+		"height": 447.0
+	},
+	"output.Deviot|Upload1468191079.473957":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468191712.200002":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468192082.805101":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468192132.351054":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468192167.679681":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468192309.114352":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468192325.458055":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468192512.095671":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468192660.243689":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468192728.610722":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468192923.010309":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468193136.275653":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468193189.696345":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468193264.407742":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468193313.859714":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468193369.37888":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468242810.456981":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468242853.636686":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468243021.971392":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468243081.706962":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468243590.379006":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468243615.048171":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468243756.486675":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468244172.686264":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468244189.354374":
+	{
+		"height": 25.0
+	},
+	"output.Deviot|Upload1468279277.604065":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468340763.748158":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468340820.493312":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468340880.704158":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468340932.758752":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468340966.665741":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468342497.696911":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468343116.220162":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468343228.217535":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468343302.521421":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468343325.471266":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468396010.650859":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468396018.193472":
+	{
+		"height": 100.0
+	},
+	"output.Deviot|Upload1468396044.296093":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "BojlerDoma.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
