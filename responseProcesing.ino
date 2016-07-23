@@ -7,7 +7,7 @@
 #include <ArduinoJson.h>
 #include <Time.h>
 #include <TimeLib.h>
-
+//pokus
 
 void doNecesaryActionsUponResponse(String inputJsonString) {
   if (MAIN_DEBUG) DEBUG_OUTPUT.println("  F:doNecesaryActionsUponResponse(String inputJsonString): " + (String)inputJsonString);
@@ -83,9 +83,10 @@ void doNecesaryActionsUponResponse(String inputJsonString) {
   lowDropingTemp_global = lowDropingTemp;
   nowTime_global = nowTime;
   nowDate_global = nowDate;
+  
   if(getObjectAskingForResponse().indexOf("begining state update") != -1);
     setTime(syncTime.substring(0,2).toInt(),syncTime.substring(3,5).toInt(),syncTime.substring(6,8).toInt(),syncTime.substring(9,11).toInt(),syncTime.substring(12,14).toInt(),syncTime.substring(15,19).toInt());
-  resetObjectAskingForResponse();
+  
 
   //digitalClockDisplay();
 

@@ -4,14 +4,12 @@
   Email: jindrich.sirucek@gmail.com
 */
 
-//pokus
+
 //--------------------------------------------------------------------------------
 //Libraries included
 #include <ESP8266WiFi.h>
 #include <Tasker.h>
 
-
-#define POKUS true //if true? disable debugging output information
 #define OSTRY_PROVOZ true //if true? disable debugging output information
 #define DISABLE_SOME_MODULES true // disables some modules
 
@@ -102,7 +100,6 @@
 ////////////////////////////////////////////////////////
 //GLOBAL VARIABLES
 ////////////////////////////////////////////////////////
-String responseText_global = "";
 
 float lastTemp_global = ERROR_TEMP_VALUE_MINUS_127;
 float flowTemp_global = 0;
@@ -129,6 +126,8 @@ unsigned long espRestartTime_global = 160 * 1000; //this value need to be change
 
 String systemStateInfo_global = "";
 String objectAskingForResponse_global = "begining state update";
+String responseText_global = "";
+
 String nowTime_global = "";
 String nowDate_global = "";
 ////////////////////////////////////////////////////////
@@ -186,13 +185,14 @@ void loop()
 {
   if (MAIN_DEBUG) DEBUG_OUTPUT.println("\nF:MAIN_loop()");
 
-  if (OTA_MODULE_ENABLED)            tasker.setInterval(OTA_loop, 1000);
-  if (DISPLAY_MODULE_ENABLED)        tasker.setInterval(displayData_loop, 1000);
+  if (UPLOADING_DATA_MODULE_ENABLED) tasker.setInterval(response_loop, 10 * 1000);  
+  if (SENDING_BEACON_MODULE_ENABLED) tasker.setTimeout(checkSystemState_loop, nodeStatusUpdateTime_global); //60 * 60 * 1000 = 1 hour
+  if (OTA_MODULE_ENABLED)            tasker.setInterval(OTA_loop, 1000);  
   if (TEMP_MODULE_ENABLED)           tasker.setInterval(temperature_loop, 3 * 1000);
+  if (DISPLAY_MODULE_ENABLED)        tasker.setInterval(displayData_loop, 1000);
   if (WATER_FLOW_MODULE_ENABLED)     tasker.setInterval(waterFlow_loop, 20 * 1000);
   if (CURRENT_MODULE_ENABLED)        tasker.setInterval(current_loop, 16 * 1000);
-  if (SENDING_BEACON_MODULE_ENABLED) tasker.setTimeout(checkSystemState_loop, nodeStatusUpdateTime_global); //60 * 60 * 1000 = 1 hour
-  if (UPLOADING_DATA_MODULE_ENABLED) tasker.setInterval(response_loop, 10 * 1000);
+  
   
 
 
@@ -223,8 +223,6 @@ void response_loop(int)
 //Upravit erase display area.. zdržuje to kod.. přidat mezery na konec slova do plného počtu display arre
 //poslat zprávu že přijal změnu refresh time nodeinfoupdate
 
-//aby Wifi nepadala u sprchování
-//před odesláním dat přerušit sei, vypočítat sei za sekundu a dopočítat spotřebu vody 
 //ukládat info během sprchy do souboru a vůbec neposílat
 //ukládat to ve formě JSONu
 //Pak to poslat celé naráz až se vypne voda
@@ -305,7 +303,7 @@ void waterFlow_loop(int)
 {
   if (MAIN_DEBUG) DEBUG_OUTPUT.println("  F:waterFlow_loop()");
 
-  if (readFlowInLitres() == 0 && lastWaterFlowSensorCount_global > 10)//watter stopped flowing
+  if (readFlowInLitres() < 2 && lastWaterFlowSensorCount_global > 10)//watter stopped flowing
   {
     DEBUG_OUTPUT.println("Flow state has droped to zero.. sending update data..");
     sendNodeStateUpdate("WaterFlow_Stopped");
@@ -317,39 +315,44 @@ void waterFlow_loop(int)
 }
 
 
+String getSystemStateInfo()
+{
+
+  String systemStateInfo = "";
+  //if ((totalErrorCount_global / millis() / 1000 / 60 / 60) >= MAX_ERROR_COUNT_PER_HOUR)
+    //ESP.restart();
+  systemStateInfo += "Uptime: " + getStringUpTime() + "\n";
+  systemStateInfo += "\nnodeStatusUpdateTime_global: " + formatTimeToString(nodeStatusUpdateTime_global);
+  systemStateInfo += "\ntopHeatingTemp_global: " + (String)topHeatingTemp_global;
+  systemStateInfo += "\nlowDropingTemp_global: " + (String)lowDropingTemp_global;
+
+  //systemStateInfo +=\n "TimeFromLastUpdate: " + getTimeFromLastUpdate() + "\n";
+  systemStateInfo += "\ntotalErrorCount_global: " + (String)totalErrorCount_global + "\n";
+  //systemStateInfo += "\nERROR_COUNT_PER_HOUR: " + (String)(totalErrorCount_global / millis() / 1000 / 60 / 60) + "\n";
+
+  systemStateInfo += "\nnotParsedHttpResponses_errorCount: " + (String)notParsedHttpResponses_errorCount + "\n";
+  systemStateInfo += "\nparsedHttpResponses_notErrorCount: " + (String)parsedHttpResponses_notErrorCount + "\n";
+
+  systemStateInfo += "\nlastUpdateTime_global: " + formatTimeToString(lastUpdateTime_global);
+  systemStateInfo += "\nlastWaterFlowSensorCount_global: " + (String)lastWaterFlowSensorCount_global;
+  systemStateInfo += "\nwaterFlowDisplay_global: " + (String)waterFlowDisplay_global;
+  systemStateInfo += "\nlastWaterFlowResetTime_global: " + formatTimeToString(lastWaterFlowResetTime_global);
+
+  systemStateInfo += "\nTime&Date: " + getNowTimeDateString();
+
+  return systemStateInfo;
+}
 
 
 void checkSystemState_loop(int)
 {
   setObjectAskingForResponse("checkSystemState_loop");
-  String systemStateInfo = "";
+  String systemStateInfo = "\n\n";
 
-  if (MAIN_DEBUG) DEBUG_OUTPUT.println("  F:checkSystemState()");
-  //if ((totalErrorCount_global / millis() / 1000 / 60 / 60) >= MAX_ERROR_COUNT_PER_HOUR)
-    //ESP.restart();
-  systemStateInfo += "Uptime: " + getStringUpTime() + "\n";
-  systemStateInfo += "\nnodeStatusUpdateTime_global: " + (String)nodeStatusUpdateTime_global;
-  systemStateInfo += "\ntopHeatingTemp_global: " + (String)topHeatingTemp_global;
-  systemStateInfo += "\nlowDropingTemp_global: " + (String)lowDropingTemp_global;
-
-  systemStateInfo += "\ngetFreeHeap(); " + (String)ESP.getFreeHeap() + "\n";
-  //systemStateInfo +=\n "TimeFromLastUpdate: " + getTimeFromLastUpdate() + "\n";
-  systemStateInfo += "\ntotalErrorCount_global: " + (String)totalErrorCount_global + "\n";
-  systemStateInfo += "\nERROR_COUNT_PER_HOUR: " + (String)(totalErrorCount_global / millis() / 1000 / 60 / 60) + "\n";
-
-  systemStateInfo += "\nnotParsedHttpResponses_errorCount" + (String)notParsedHttpResponses_errorCount + "\n";
-  systemStateInfo += "\nparsedHttpResponses_notErrorCount" + (String)parsedHttpResponses_notErrorCount + "\n";
-
-  systemStateInfo += "\nlastUpdateTime_global: " + (String)lastUpdateTime_global;
-  systemStateInfo += "\nlastWaterFlowSensorCount_global: " + (String)lastWaterFlowSensorCount_global;
-  systemStateInfo += "\nwaterFlowDisplay_global: " + (String)waterFlowDisplay_global;
-  systemStateInfo += "\nlastWaterFlowResetTime_global: " + (String)lastWaterFlowResetTime_global;
-
-
+  if (MAIN_DEBUG) DEBUG_OUTPUT.println("  F:checkSystemState_loop()");
 
   systemStateInfo += getESPStatusUpdate();
 
-  systemStateInfo_global = systemStateInfo + "Time&Date: " + getNowTimeDateString();
   sendNodeStateUpdate("Beacon_Alive");//zároveň slouží jako beacon alive
   
   systemStateInfo_global = "";
@@ -378,12 +381,12 @@ void wifiConnect()
   WiFi.begin(AP_SSID, AP_PASSWORD);
   while (WiFi.status() != WL_CONNECTED)
   {
-    delay(1000);
+    delay(500);
     DEBUG_OUTPUT.print(".");
     displayPrint(".");
   }
   DEBUG_OUTPUT.println("");
-  if (INTERNET_COMMUNICATION_DEBUG) { DEBUG_OUTPUT.print("WiFi connected to: ");DEBUG_OUTPUT.println(AP_SSID);}
+  if (INTERNET_COMMUNICATION_DEBUG) { DEBUG_OUTPUT.print("WiFi connected to: "); DEBUG_OUTPUT.println(AP_SSID);}
 
   sendNodeStateUpdate("WiFi_connected");
 }

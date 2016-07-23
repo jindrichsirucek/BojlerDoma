@@ -49,9 +49,9 @@ void sendNodeStateUpdate(const char* fireEventName)
 
   if(!UPLOADING_DATA_MODULE_ENABLED) { DEBUG_OUTPUT.println("Not sending data over WiFi: UPLOADING_DATA_MODULE: DISABLED"); return;  }
 
-  String postDataToSent = (systemStateInfo_global != "") ? "systemStateInfo=" + systemStateInfo_global : "";    
+  String postDataToSent = getSystemStateInfo() + ((systemStateInfo_global != "") ? "systemStateInfo=" + systemStateInfo_global : "");    
   
-  showServiceMessage("Sending...");
+  showServiceMessage("Sending");
   bool responseOk = postDataToServer(postDataToSent, uriParams);
   
   showServiceMessage("Data sent!");

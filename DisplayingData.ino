@@ -233,32 +233,23 @@ void displayPrint(char const* message)
 
 
 
-String getTimeFromLastUpdate()// upTime
+String getTimeFromLastUpdate()
 {
-  String timeFromLastTempUpdate = "";
-  uint32_t milisecondsFromLastSend = (millis() - lastUpdateTime_global);
-
-  int hoursFromLastSend = milisecondsFromLastSend / 1000 / 60 / 60;
-  int minutesFromLastSend = milisecondsFromLastSend / 1000 / 60 - hoursFromLastSend * 60;
-  int secondsFromLastSend = milisecondsFromLastSend / 1000 - minutesFromLastSend * 60 - hoursFromLastSend * 60 * 60;
-
-  //char bufferCharConversion[15];
-  //sprintf(bufferCharConversion, "%02d:%02d:%02d  ", hoursFromLastSend, minutesFromLastSend, secondsFromLastSend);
-
-  timeFromLastTempUpdate = (String)hoursFromLastSend + ":" + (String)minutesFromLastSend + ":" + (String)secondsFromLastSend;
-  return timeFromLastTempUpdate;
+  return formatTimeToString(millis() - lastUpdateTime_global); 
 }
 
 String getStringUpTime()
 {
-  long upTimeInMilliseconds = millis();
-
-  int hoursFromLastSend = upTimeInMilliseconds / 1000 / 60 / 60;
-  int minutesFromLastSend = upTimeInMilliseconds / 1000 / 60 - hoursFromLastSend * 60;
-  int secondsFromLastSend = upTimeInMilliseconds / 1000 - minutesFromLastSend * 60 - hoursFromLastSend * 60 * 60;
-
-  return (String)hoursFromLastSend + ":" + (String)minutesFromLastSend + ":" + (String)secondsFromLastSend;
+  return formatTimeToString(millis());
 }
 
 
+String formatTimeToString(long timeInMilliseconds)
+{
+  byte hoursFromLastSend = timeInMilliseconds / 1000 / 60 / 60;
+  byte minutesFromLastSend = timeInMilliseconds / 1000 / 60 - hoursFromLastSend * 60;
+  byte secondsFromLastSend = timeInMilliseconds / 1000 - minutesFromLastSend * 60 - hoursFromLastSend * 60 * 60;
+
+  return ((hoursFromLastSend <10 ) ? "0" : "") + (String)hoursFromLastSend + ":" + ((minutesFromLastSend <10 ) ? "0" : "") + (String)minutesFromLastSend + ":" + ((secondsFromLastSend <10 ) ? "0" : "") + (String)secondsFromLastSend;
+}
 

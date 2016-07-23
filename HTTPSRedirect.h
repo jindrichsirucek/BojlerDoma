@@ -32,8 +32,9 @@ public:
 
         if (HTTPS_REDIRECT_DEBUG) DEBUG_OUTPUT.println("request sent");
         while (available() == 0) {
+            displayPrint(".");
             if (HTTPS_REDIRECT_DEBUG) DEBUG_OUTPUT.print(".");
-            delay(100);
+            delay(300);
         }
 
         return processHeader();
@@ -55,8 +56,9 @@ public:
 
         if (HTTPS_REDIRECT_DEBUG) DEBUG_OUTPUT.println("request sent ");
         while (available() == 0) {
+            displayPrint(".");
             if (HTTPS_REDIRECT_DEBUG) DEBUG_OUTPUT.print(".");
-            delay(100);
+            delay(300);
         }
 
         return processHeader();
